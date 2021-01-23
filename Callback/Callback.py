@@ -44,7 +44,7 @@ def echo(update, context):
 
 
 def encode(context):
-    return str(context.encode('unicode-escape')).replace('\'', '').replace('b', '').replace('\\\\', '\\')
+    return str(context.encode('unicode-escape'), 'utf-8')
 
 
 def decode(context):
