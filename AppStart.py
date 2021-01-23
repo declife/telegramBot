@@ -4,10 +4,10 @@ import logging
 from telegram.ext import Updater
 from Callback.Register import register_handler
 
-# REQUEST_KWARGS = {
-#     # "USERNAME:PASSWORD@" is optional, if you need authentication:
-#     'proxy_url': 'http://127.0.0.1:7890/',
-# }
+REQUEST_KWARGS = {
+    # "USERNAME:PASSWORD@" is optional, if you need authentication:
+    'proxy_url': 'http://127.0.0.1:7890/',
+}
 
 
 def main():
